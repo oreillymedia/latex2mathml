@@ -486,7 +486,7 @@ DIACRITICS: dict[str, tuple[str, dict[str, str]]] = {
     DDDOT: ("&#x020DB;", {}),
     DDDDOT: ("&#x020DC;", {}),
     GRAVE: ("&#x00060;", {}),
-    HAT: ("&#x0005E;", {"stretchy": "false"}),
+    HAT: ("&#x0005E;", {"accent": "true", "stretchy": "false"}),
     MATHRING: ("&#x002DA;", {}),
     OVERBRACE: ("&#x23DE;", {}),
     OVERLEFTARROW: ("&#x02190;", {}),

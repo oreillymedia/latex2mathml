@@ -2364,7 +2364,7 @@ from latex2mathml.converter import _convert, convert, convert_to_element
                 [
                     (
                         "mover",
-                        MultiDict([("mi", "a"), ("mo", {"@stretchy": "false", "$": "&#x0005E;"})]),
+                        MultiDict([("mi", "a"), ("mo", {"@accent": "true", "@stretchy": "false", "$": "&#x0005E;"})]),
                     ),
                     (
                         "mover",
@@ -2379,7 +2379,7 @@ from latex2mathml.converter import _convert, convert, convert_to_element
                                         ]
                                     ),
                                 ),
-                                ("mo", {"@stretchy": "false", "$": "&#x0005E;"}),
+                                ("mo", {"@accent": "true", "@stretchy": "false", "$": "&#x0005E;"}),
                             ]
                         ),
                     ),
@@ -3819,7 +3819,7 @@ from latex2mathml.converter import _convert, convert, convert_to_element
                             "mover": MultiDict(
                                 [
                                     ("mrow", MultiDict([("mi", "A"), ("mspace", {"@width": "0.389em"})])),
-                                    ("mo", {"@stretchy": "false", "$": "&#x0005E;"}),
+                                    ("mo", {"@accent": "true", "@stretchy": "false", "$": "&#x0005E;"}),
                                 ]
                             ),
                         },
